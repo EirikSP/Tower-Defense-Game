@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Proj.ProjController">
+   <children>
+      <Label alignment="CENTER" layoutX="300.0" layoutY="84.0" prefHeight="51.0" prefWidth="300.0" text="Scuffed Tower Defence">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button focusTraversable="false" layoutX="375.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleStartGame" prefHeight="150.0" prefWidth="150.0" text="Start Game" />
+   </children>
+</AnchorPane>
